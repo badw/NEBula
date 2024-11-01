@@ -1,13 +1,18 @@
-## iNEBS - interstitial and interstitialcy nudged elastic band (NEB) pathways generator
+## iNEBS
 
-currently being made - hold tight 
+> interstitial and interstitialcy nudged elastic band (NEB) pathways generator
 
-<p align="center">
+<p align="left">
 <img src="./interstitial_neb.png" height="300">
 </p>
 
+### Installation
 
-<p align="center">
+```pip install .```
+
+
+### Example
+<p align="right">
 <img src="./example.png" height="300">
 </p>
 
