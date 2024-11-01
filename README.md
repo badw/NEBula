@@ -2,7 +2,7 @@
 
 > interstitial and interstitialcy nudged elastic band (NEB) pathways generator
 
-<p align="left">
+<p align="center">
 <img src="./interstitial_neb.png" height="300">
 </p>
 
@@ -12,7 +12,7 @@
 
 
 ### Example
-<p align="right">
+<p align="center">
 <img src="./example.png" height="300">
 </p>
 
