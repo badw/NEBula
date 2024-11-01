@@ -16,3 +16,9 @@
 <img src="./example.png" height="300">
 </p>
 
+
+### ToDo
+
+- [ ] tidy up code 
+- [ ] add NEB-PATH-IN-POSCAR generator
+
