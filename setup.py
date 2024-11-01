@@ -18,9 +18,9 @@ setup(
     install_requires=['tqdm',
                       'chgnet',
                       'doped',
-                      'pymatgen==2024.4.13',
-                      'numpy==1.26.4',
-                      'ase==3.23.0',
+                      'pymatgen',
+                      'numpy',
+                      'ase',
                       'doped'],
     python_requires=">=3.10",
     classifiers=[

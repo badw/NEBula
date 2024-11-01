@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: inebs
+Version: 1.0.0a0
+Summary: interstitial and interstitialcy NEB generator for DFT
+Home-page: https://github.com/badw/inebs
+Author: Benjamin A. D. Williamson
+Author-email: benjamin.williamson@ntnu.no
+License: MIT
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Development Status :: 3 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Other/Nonlisted Topic
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: chgnet
+Requires-Dist: doped
+Requires-Dist: pymatgen
+Requires-Dist: numpy
+Requires-Dist: ase
+Requires-Dist: doped
