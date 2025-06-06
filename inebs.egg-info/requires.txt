@@ -1,7 +1,0 @@
-tqdm
-chgnet
-doped
-pymatgen
-numpy
-ase
-doped

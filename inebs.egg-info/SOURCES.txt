@@ -1,9 +1,0 @@
-LICENSE
-README.md
-setup.py
-inebs/ineb.py
-inebs.egg-info/PKG-INFO
-inebs.egg-info/SOURCES.txt
-inebs.egg-info/dependency_links.txt
-inebs.egg-info/requires.txt
-inebs.egg-info/top_level.txt
