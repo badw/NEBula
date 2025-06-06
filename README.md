@@ -19,14 +19,10 @@ cd nebula
 pip install . 
 ```
 
-<p align="center">
-<img src="./interstitial_neb.png" height="300">
-</p>
-
 
 ### Example
 <p align="center">
-<img src="./example.png" height="300">
+<img src="./static/example.png" height="300">
 </p>
 
 
