@@ -2,6 +2,10 @@ import matplotlib.pyplot as plt
 import numpy as np 
 from ase.mep import NEBTools 
 
+from pymatgen.io.ase import AseAtomsAdaptor
+from pymatgen.core import PeriodicSite
+from pymatgen.core import Structure
+
 
 class NEBulaPlotter:
 
@@ -25,8 +29,16 @@ class NEBulaPlotter:
         self.Ef = Ef
         self.dE = dE
 
-    def save_neb_as_poscar(self,filename='poscar'):
-        return(None)
+    def save_neb_as_poscar(self,images,mobile_species='H',filename='poscar.vasp'):
+
+        neb = [AseAtomsAdaptor.get_structure(x) for x in images] # assumes atoms
+        sites = []
+        sites.append(neb[0][-1])
+        sites.append(neb[-1][-1])
+        for s in neb[1:-1]:
+            sites.append(PeriodicSite(mobile_species,s[-1].frac_coords,s.lattice))
+        sites.extend(neb[0].sites[1:])
+        Structure.from_sites(sites).to(filename=filename,fmt='poscar')
     
     def plot_neb(self,ax=None,subplot_kws={},plot_kws = {}):
         self.plot_kws.update(plot_kws)
