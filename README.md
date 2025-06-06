@@ -3,7 +3,7 @@
 
   <ul style="list-style: none">
     <summary>
-      <h2> <pre>NEBula - Interstitial and Interstitialcy Nudged Elastic Band Path Generator</pre></h2>
+      <h2> <pre>NEBula - Interstitial(cy) NEB Path Generator</pre></h2>
     </summary>
   </ul>
 </div>
